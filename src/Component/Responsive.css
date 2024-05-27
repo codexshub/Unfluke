@@ -1,0 +1,7 @@
+/* RESPONSIVENESS START FROM HERE */
+
+@media only screen and (max-width: 1200px) {
+    html{
+        font-size: 40%;
+    }
+  }

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+html{
+    font-size: 62.5%
+}
+
+
+.Content-menu-head{
+    margin-top: 2rem;
+}
+.Content-List-container{
+    display: flex;
+    align-items: center;
+}
+.Content-List .material-symbols-outlined{
+    columns: #008000;
+}
+.Content-List , .Content-List-2{
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 500;
+    margin-right: 2rem;
+}
+.Content-List-container-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content-main-section:hover{
+    background-color: #e6f3ff;
+    transition: .3s ease;
+}
+.content-main-section-1:hover{
+    background-color: #e6f3ff;
+    transition: .3s ease;
+}
+.content-main-section{
+    background-color: #f4f4f6;
+}
+.Content-menu-List {
+    display: flex;
+    align-items: center;
+    padding: 1.5em 0;
+    border-bottom: .1rem solid #bbbbbbd9;
+}
+.Content-List button:hover{
+    background-color: #fff;
+    color: #3890dc;
+    transition: .3s ease;
+}
+.Content-List button{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: #3890dc;
+    border: .1rem solid #3890dc;
+    border-radius: .7rem;
+    padding: .5rem 2rem;
+}
+.Content-List .material-symbols-outlined{
+    margin-right: 1rem;
+    color: #008000;
+}
+
+.Content-List , .Content-List-2{
+    display: flex;
+    align-items: center;
+}
+.Content-List-2 button:hover{
+    background-color: #fff;
+    transition: .3s ease;
+    color: #7acc60;
+}
+.Content-List-2 button{
+    font-size: 1.5rem;
+    color: #fff;
+    border: .1rem solid #7acc60;
+    font-weight: 500;
+    background-color: #7acc60;
+    border-radius: .7rem;
+    padding: .5rem 2.3rem;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    html{
+        font-size: 50%;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    html{
+        font-size: 35%;
+    }
+    .Content-List .material-symbols-outlined{
+        font-size: 2.5rem;
+    }
+  }
