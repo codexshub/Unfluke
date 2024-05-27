@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Unfluke/static/css/main.8b88b71f.css",
+    "main.js": "/Unfluke/static/js/main.16ed81b9.js",
+    "static/media/user.png": "/Unfluke/static/media/user.0c7b837069c08ab37026.png",
+    "static/media/LOGO.png": "/Unfluke/static/media/LOGO.1e3bcdfaf0a3a5c22d0a.png",
+    "index.html": "/Unfluke/index.html",
+    "main.8b88b71f.css.map": "/Unfluke/static/css/main.8b88b71f.css.map",
+    "main.16ed81b9.js.map": "/Unfluke/static/js/main.16ed81b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b88b71f.css",
+    "static/js/main.16ed81b9.js"
+  ]
+}
